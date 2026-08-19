@@ -216,7 +216,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 40px;margin-top:40px}
   .dd-arr,.caret{display:none}
   .dd-panel [data-nav]{padding:9px 12px}
 
-  .nav-cta .btn{display:none}
+  .nav-cta .btn{padding:10px 16px;font-size:.85rem}
   .band{padding:28px 22px}
   section{padding:64px 0}
 }
