@@ -138,7 +138,8 @@ section.tight{padding:56px 0}
 .value p{text-wrap:pretty}
 .value h3{font-size:1.02rem;margin-bottom:6px;color:var(--ultra-dark)}
 .value p{font-size:.92rem;color:var(--ink-soft)}
-.team{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-top:44px}
+.team{display:flex;justify-content:center;gap:64px;flex-wrap:wrap;margin-top:44px}
+.team .member{min-width:150px}
 .member{text-align:center}
 .member .ava{width:88px;height:88px;border-radius:26px;margin:0 auto 14px;display:flex;align-items:center;justify-content:center;font-family:var(--display);font-weight:700;font-size:1.4rem;color:#fff}
 .member b{display:block;font-size:.98rem}
@@ -202,7 +203,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 40px;margin-top:40px}
   .step{border:none;border-top:1px solid var(--line);padding-top:22px}
   .ledger-row{grid-template-columns:1fr}
   .ledger-cell{border-top:1px solid var(--line)}
-  .team{grid-template-columns:1fr 1fr}
+  .team{gap:36px}
 }
 @media (max-width:680px){
   .grid-3,.tiers,.form-row,.values{grid-template-columns:1fr}
