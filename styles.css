@@ -37,8 +37,8 @@ header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.86);backdro
 .logo-mark::after{content:"";position:absolute;inset:auto -4px -4px auto;width:18px;height:18px;background:var(--marigold);border-radius:6px 0 0 0}
 .nav-links{display:flex;gap:14px;list-style:none;align-items:center}
 .nav-links .nav-audit{margin-left:6px}
-.nav-links .nav-audit a{background:var(--ultra);color:#fff;font-weight:600;padding:11px 20px;font-size:.88rem}
-.nav-links .nav-audit a:hover{background:var(--ultra-dark);color:#fff}
+.nav-links .nav-audit a{background:var(--ultra) !important;color:#fff !important;font-weight:600;padding:11px 20px;font-size:.88rem}
+.nav-links .nav-audit a:hover{background:var(--ultra-dark) !important;color:#fff !important}
 .nav-links a{text-decoration:none;font-size:.92rem;font-weight:500;color:var(--ink-soft);padding:9px 16px;border-radius:999px;transition:.15s}
 .nav-links a:hover{color:var(--ink);background:var(--tint)}
 .nav-links a.active{color:#fff;background:var(--ink)}
