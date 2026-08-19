@@ -35,7 +35,9 @@ header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.86);backdro
 .logo{display:flex;align-items:center;gap:10px;font-family:var(--display);font-weight:700;font-size:1.15rem;text-decoration:none;letter-spacing:-.01em}
 .logo-mark{width:32px;height:32px;border-radius:9px;background:var(--ultra);position:relative;overflow:hidden}
 .logo-mark::after{content:"";position:absolute;inset:auto -4px -4px auto;width:18px;height:18px;background:var(--marigold);border-radius:6px 0 0 0}
-.nav-links{display:flex;gap:6px;list-style:none}
+.nav-links{display:flex;gap:14px;list-style:none;align-items:center}
+.nav-links .nav-audit{margin-left:6px}
+.nav-links .btn{padding:11px 20px;font-size:.88rem}
 .nav-links a{text-decoration:none;font-size:.92rem;font-weight:500;color:var(--ink-soft);padding:9px 16px;border-radius:999px;transition:.15s}
 .nav-links a:hover{color:var(--ink);background:var(--tint)}
 .nav-links a.active{color:#fff;background:var(--ink)}
@@ -210,6 +212,8 @@ footer{border-top:1px solid var(--line);padding:56px 0 40px;margin-top:40px}
   .nav-links{display:none;position:absolute;top:72px;left:0;right:0;background:var(--paper);flex-direction:column;padding:16px 24px 24px;border-bottom:1px solid var(--line);gap:4px}
   .nav-links.open{display:flex}
   .nav-links a{display:block;padding:13px 16px}
+  .nav-links .nav-audit{margin:10px 16px 0}
+  .nav-links .btn{display:inline-flex;padding:12px 22px}
   .menu-btn{display:block}
   .dropdown{position:static;display:block;padding:6px 0 0 14px}
   .dd-panel{border:none;box-shadow:none;padding:0;min-width:0;background:transparent}
@@ -217,7 +221,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 40px;margin-top:40px}
   .dd-arr,.caret{display:none}
   .dd-panel [data-nav]{padding:9px 12px}
 
-  .nav-cta .btn{padding:10px 16px;font-size:.85rem}
+  
   .band{padding:28px 22px}
   section{padding:64px 0}
 }
