@@ -454,3 +454,19 @@ code,pre,kbd,samp{font-family:'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,
 @media (max-width:520px){
   .child-hero.dark .case-meta,.child-hero.dark .stats{grid-template-columns:1fr}
 }
+
+/* two-up card grid */
+.cs-grid.two{grid-template-columns:repeat(2,1fr)}
+@media (max-width:760px){.cs-grid.two{grid-template-columns:1fr}}
+
+/* published pieces, linked at source */
+.pieces{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;margin-top:40px}
+@media (max-width:860px){.pieces{grid-template-columns:1fr}}
+.piece{border:1px solid var(--line);border-radius:20px;background:var(--paper);padding:26px 28px 24px;display:flex;flex-direction:column;gap:10px;transition:border-color .18s ease,box-shadow .18s ease}
+.piece:hover{border-color:var(--tint-deep);box-shadow:0 22px 38px -30px rgba(20,21,26,.3)}
+.pc-src{font-family:var(--body);font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-mute)}
+.piece h3{font-size:1.05rem}
+.piece p{color:var(--ink-soft);font-size:.94rem}
+.pc-link{margin-top:auto;padding-top:14px;font-weight:600;font-size:.92rem;color:var(--ultra);text-decoration:none;display:inline-flex;gap:8px;align-items:center}
+.pc-link:hover{text-decoration:underline}
+.piece:hover .pc-link .arr{transform:translateX(3px)}

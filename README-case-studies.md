@@ -4,24 +4,42 @@ Drop-in files for the case studies section. Everything here goes in the **site r
 
 ## Files in this package
 
-| File | What it is | Action |
-|---|---|---|
-| `case-studies.html` | Landing page — three clickable columns (Content, Link building, SEO) | **new** |
-| `cs-content-writing.html` | Category page, empty state | **new** |
-| `cs-link-building.html` | Category page, 3 case study cards + reporting-standard section | **new** |
-| `cs-seo.html` | Category page, empty state | **new** |
-| `cs-uk-travel-group.html` | Case study 01 | **new** |
-| `cs-uk-cbd-brand.html` | Case study 02 | **new** |
-| `cs-agency-link-building.html` | Case study 03 | **new** |
-| `styles.css` | Your stylesheet with the case-studies block appended and the font swap | **replaces existing** |
-| `script.js` | Unchanged from your existing file | **no change — included for reference only** |
-| `assets/*.png` | Three SEMrush chart screenshots | **new** |
+Upload **everything**. Every file here belongs in the site root, except `assets/`, which stays a folder of that name beside the HTML.
+
+**New — 9 files**
+
+| File | What it is |
+|---|---|
+| `case-studies.html` | Landing page: three clickable columns (Content, Link building, SEO) |
+| `cs-content-writing.html` | Content category page, 2 cases |
+| `cs-seo-content.html` | Content case 01 — SEO content for an outsourcing group |
+| `cs-social-content.html` | Content case 02 — Social and short-form video |
+| `cs-link-building.html` | Link building category page, 3 cases |
+| `cs-uk-travel-group.html` | Link building case 01 |
+| `cs-uk-cbd-brand.html` | Link building case 02 |
+| `cs-agency-link-building.html` | Link building case 03 |
+| `cs-seo.html` | SEO category page (empty state) |
+
+**Overwrites your existing files — 9**
+
+| File | Why |
+|---|---|
+| `styles.css` | Font swap + the appended case-studies block |
+| `index.html`, `about.html`, `services.html`, `seo.html`, `ppc.html`, `creative-design.html`, `email-marketing.html`, `contact.html` | Case studies nav link, new fonts link, `?v=4` |
+
+**Also included**
+
+- `assets/` — three SEMrush chart PNGs used by the two link-building case studies. Must be uploaded as a folder.
+- `script.js` — **unchanged** from your existing file. Safe to overwrite or skip.
+- `README-case-studies.md` — this file. Don't upload it unless you want it in the repo.
 
 ## Navigation structure
 
 ```
 case-studies.html
-├── cs-content-writing.html          (empty state)
+├── cs-content-writing.html
+│   ├── cs-seo-content.html
+│   └── cs-social-content.html
 ├── cs-link-building.html
 │   ├── cs-uk-travel-group.html
 │   ├── cs-uk-cbd-brand.html
