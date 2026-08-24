@@ -1,10 +1,10 @@
 # Case studies section — KQ Digital
 
-Drop-in files for the case studies section. Everything here goes in the **site root**, except `assets/`, which goes in a folder of that name beside the HTML files.
+Drop-in files for the case studies section. Everything goes in the **site root**. Flat — no subfolders.
 
 ## Files in this package
 
-Upload **everything**. Every file here belongs in the site root, except `assets/`, which stays a folder of that name beside the HTML.
+Upload **everything**. Every file goes in the site root — there are no folders and no image files to keep track of. The three SEMrush charts are embedded directly inside the two case study pages that use them, so there is nothing that can 404.
 
 **New — 9 files**
 
@@ -29,7 +29,6 @@ Upload **everything**. Every file here belongs in the site root, except `assets/
 
 **Also included**
 
-- `assets/` — three SEMrush chart PNGs used by the two link-building case studies. Must be uploaded as a folder.
 - `script.js` — **unchanged** from your existing file. Safe to overwrite or skip.
 - `README-case-studies.md` — this file. Don't upload it unless you want it in the repo.
 
