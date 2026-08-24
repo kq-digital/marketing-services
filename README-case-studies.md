@@ -31,31 +31,15 @@ case-studies.html
 
 Breadcrumbs follow the same path: `Case studies / Link building / UK travel group`.
 
-## Two things to do to your existing pages
+## Your existing pages
 
-`styles.css` in this package replaces your current one, so the font change and CSS fixes apply site-wide the moment you upload it. But your other seven pages (`index`, `about`, `services`, `seo`, `ppc`, `creative-design`, `email-marketing`, `contact`) still need two manual edits each:
+All eight — `index`, `about`, `services`, `seo`, `ppc`, `creative-design`, `email-marketing`, `contact` — are included in this package, already updated with:
 
-**1. Update the Google Fonts link.** Replace the existing `<link href="https://fonts.googleapis.com/css2?family=Bricolage...">` with:
+- the **Case studies** link in the header nav (before the "Get a free audit" button) and in the footer nav
+- the new Google Fonts link (Oswald + Inter + IBM Plex Mono)
+- `styles.css?v=4` and `script.js?v=4` so browsers pick up the new stylesheet
 
-```html
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-```
-
-Without this those pages will fall back to system fonts.
-
-**2. Add the Case studies nav item.** In the header `<ul class="nav-links">`, immediately **before** the `<li class="nav-audit">` line:
-
-```html
-<li><a href="case-studies.html">Case studies</a></li>
-```
-
-And in the footer `<ul class="foot-nav">`, after the Services `</li>`:
-
-```html
-<li><a href="case-studies.html">Case studies</a></li>
-```
-
-Also bump `styles.css?v=3` to `styles.css?v=4` (and `script.js?v=3` to `?v=4`) in those pages so browsers pick up the new stylesheet instead of a cached copy.
+Nothing else on those pages was touched. Upload the whole package and the site is consistent — there is no manual edit left to do.
 
 ## What changed in styles.css
 
