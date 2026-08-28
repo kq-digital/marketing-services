@@ -6,7 +6,7 @@ Drop-in files for the case studies section. Everything goes in the **site root**
 
 Upload **everything**. Every file goes in the site root — there are no folders and no image files to keep track of. The three SEMrush charts are embedded directly inside the two case study pages that use them, so there is nothing that can 404.
 
-**New — 9 files**
+**New — 11 files**
 
 | File | What it is |
 |---|---|
@@ -18,7 +18,9 @@ Upload **everything**. Every file goes in the site root — there are no folders
 | `cs-uk-travel-group.html` | Link building case 01 |
 | `cs-uk-cbd-brand.html` | Link building case 02 |
 | `cs-agency-link-building.html` | Link building case 03 |
-| `cs-seo.html` | SEO category page (empty state) |
+| `cs-detour-strategy.html` | SEO case study — the parking operator engagement |
+| `cs-paperwork-play.html` | SEO case study — the overseas-employment agency engagement |
+| `cs-seo.html` | SEO page — long-form, ghostwriting, email results, social method, collateral |
 
 **Overwrites your existing files — 9**
 
@@ -43,7 +45,9 @@ case-studies.html
 │   ├── cs-uk-travel-group.html
 │   ├── cs-uk-cbd-brand.html
 │   └── cs-agency-link-building.html
-└── cs-seo.html                      (empty state)
+└── cs-seo.html
+    ├── cs-detour-strategy.html
+    └── cs-paperwork-play.html
 ```
 
 Breadcrumbs follow the same path: `Case studies / Link building / UK travel group`.
