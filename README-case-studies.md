@@ -58,7 +58,7 @@ All eight — `index`, `about`, `services`, `seo`, `ppc`, `creative-design`, `em
 
 - the **Case studies** link in the header nav (before the "Get a free audit" button) and in the footer nav
 - the new Google Fonts link (Oswald + Inter + IBM Plex Mono)
-- `styles.css?v=4` and `script.js?v=4` so browsers pick up the new stylesheet
+- `styles.css?v=5` and `script.js?v=5` so browsers pick up the new stylesheet
 
 Nothing else on those pages was touched. Upload the whole package and the site is consistent — there is no manual edit left to do.
 
