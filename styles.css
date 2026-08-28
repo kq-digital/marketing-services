@@ -554,6 +554,7 @@ code,pre,kbd,samp{font-family:'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,
 @media (max-width:820px){.feature{grid-template-columns:1fr}.ft-r{padding:26px 30px}}
 
 /* 5-column keyword table */
+.kwt.five .kwt-row{grid-template-columns:1fr 150px 88px}
 @media (max-width:900px){
   .kwt.five .kwt-row{grid-template-columns:1fr auto;gap:6px 14px;padding:16px 20px}
   .kwt.five .kwt-row.h{display:none}
@@ -577,7 +578,6 @@ code,pre,kbd,samp{font-family:'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,
 @media (max-width:560px){.pieces.wide .piece{flex-direction:column}.pieces.wide .pc-thumb{flex:none;aspect-ratio:16/10;min-height:0}}
 
 /* 3-column keyword table (keyword / page / position) */
-.kwt.five .kwt-row{grid-template-columns:1fr 150px 88px}
 @media (max-width:760px){
   .kwt.five .kwt-row{grid-template-columns:1fr auto;gap:5px 14px}
   .kwt.five .kw-name,.kwt.five .kw-page{grid-column:1/2}
